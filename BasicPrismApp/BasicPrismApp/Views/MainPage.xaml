@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasicPrismApp.Views.MainPage"
+             Title="Main Page">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Button Text="Parametro = 1" Command="{Binding SelecionarCommand}" CommandParameter="1"/>
+        <Button Text="Parametro = 2" Command="{Binding SelecionarCommand}" CommandParameter="2"/>
+        <Button Text="Parametro = 3" Command="{Binding SelecionarCommand}" CommandParameter="3"/>
+        <Button Text="Parametro = 4" Command="{Binding SelecionarCommand}" CommandParameter="4"/>
+    </StackLayout>
+
+</ContentPage>
